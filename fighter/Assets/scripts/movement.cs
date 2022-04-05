@@ -33,7 +33,6 @@ public class movement : MonoBehaviour
         if(collision.gameObject.tag == "ground")
         {
             isgrounded = true;
-            Debug.Log("werkt");
         }
     }
 }
